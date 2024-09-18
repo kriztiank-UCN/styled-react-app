@@ -5,7 +5,7 @@ import theme from "./style/theme";
 const App = () => (
   <ThemeProvider theme={theme}>
     {/* application elements */}
-    <Box color="black" bg="navy">
+    <Box ml={64} color="white" bg="navy">
       Blue Box
     </Box>
   </ThemeProvider>

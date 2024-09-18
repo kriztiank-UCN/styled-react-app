@@ -1,8 +1,9 @@
-import styled from 'styled-components'
-import { color } from 'styled-system'
+import styled from "styled-components";
+import { space, color } from "styled-system";
 
 const Box = styled.div`
+  ${space}
   ${color}
-`
+`;
 
-export default Box
+export default Box;
